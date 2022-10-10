@@ -5,7 +5,7 @@ type Props = {}
 
 function ExperienceCard({}: Props) {
   return (
-    <article>
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
       <motion.img
         initial={{
           y: -100,
@@ -22,18 +22,18 @@ function ExperienceCard({}: Props) {
         <h4 className="test-4xl font-light">CEO of Ntng</h4>
         <p className="font-bold text-2xl">NtngFam</p>
         <div className="flex space-x-2 my-2">
-          <img className="h-2 w-10 rounded-full" src="https://www.flaticon.com/free-icons/react" alt="tech Used" />
-          <img className="h-2 w-10 rounded-full" src="" alt="tech Used" />
-          <img className="h-2 w-10 rounded-full" src="" alt="tech Used" />
+          <img className="h-2 w-10 rounded-full" src="https://www.flaticon.com/free-icons/react" alt="tech" />
+          <img className="h-2 w-10 rounded-full" src="" alt="tech" />
+          <img className="h-2 w-10 rounded-full" src="" alt="tech" />
         </div>
-        <p>Started work:.. - Ended:...</p>
+        <p className='uppercase py-5 text-gray-500'>Started work:.. - Ended:...</p>
 
         <ul className="list-disc space-y-4 ml-5 text-lg">
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
+          <li>Summary points Summary points Summary points Summary points  </li>
+          <li>Summary points Summary points Summary points Summary points </li>
+          <li>Summary points Summary points Summary points Summary points </li>
+          <li>Summary points Summary points Summary points Summary points </li>
+          <li>Summary points Summary points Summary points Summary points </li>
         </ul>
       </div>
     </article>
